@@ -1,1 +1,22 @@
+Atualização dos programas disponíveis para o sistema
+Antes de instalar o programa, é necessário atualizar a lista de pacotes do sistema. A listra mostra quais programas estão disponíveis para instalar.
+Se ela não estiver atualizada, o sistema pode não conseguir encontrar o programa que você pediu.
+Para atualizar essa lista, usamos o comando:
+sudo apt update
+
+Instalação:
+Para instalação do apache2 utilizaremos o comando:
+sudo apt install apache2
+No processo de instalação será solicitado uma permissão, confirme com S
+O apache funcionará como um servidor HTTP
+Para verificar o servidos utilizaremos o comando:
+ /etc/init.d/apache2 status
+
+Publicando uma página em HTML
+Para acessar a página do apache2 digite no navegador: 
+http://localhost
+Depois digita o comando:
+ip a 
+esse comando serve para descobrir o ip da máquina onde o servidor está rodando
+com o endereço ip é possível acessar a página do apache2 no navegador
 
