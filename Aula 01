@@ -1,4 +1,6 @@
-Atualização dos programas disponíveis para o sistema
+# Intalação do Apache2
+
+Para iniciar faça a atualização dos programas disponíveis para o sistema
 Antes de instalar o programa, é necessário atualizar a lista de pacotes do sistema. A listra mostra quais programas estão disponíveis para instalar.
 Se ela não estiver atualizada, o sistema pode não conseguir encontrar o programa que você pediu.
 Para atualizar essa lista, usamos o comando:
@@ -19,4 +21,7 @@ Depois digita o comando:
 ip a 
 esse comando serve para descobrir o ip da máquina onde o servidor está rodando
 com o endereço ip é possível acessar a página do apache2 no navegador
+
+cd /var/www/html/
+cd é o comando para mudar o diretorio e o caminho
 
